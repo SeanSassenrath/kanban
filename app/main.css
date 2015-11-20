@@ -40,6 +40,9 @@ body {
   padding: 13px 0;
   cursor: pointer;
 }
+.note:hover {
+  background-image: linear-gradient(-180deg,#93a656, #429ec6);
+}
 
 .delete {
   position: absolute;
