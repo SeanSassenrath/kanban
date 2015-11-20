@@ -9,6 +9,8 @@ var merge = require('webpack-merge');
 
 require('es6-promise').polyfill();
 
+process.env.BABEL_ENV = TARGET;
+
 var common = {
   entry: APP_PATH,
   output: {
