@@ -1,4 +1,54 @@
 body {
-  background: cornsilk;
+  background: #3D3E40;
+  font-family: sans-serif;
 }
 
+.note-container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.add-note {
+  border: 1px solid #7A7B7F;
+  border-radius: 3px;
+  box-shadow: none;
+  background-color: #DBDEE5;
+  color: #7A7B7F;
+  padding: 10px 100px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.add-note:hover {
+  background-color: white;
+}
+
+.notes {
+  list-style: none;
+  padding: 0px;
+}
+
+.note {
+  position: relative;
+  width: 330px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin: 20px auto;
+  padding: 13px 0;
+  cursor: pointer;
+}
+
+.delete {
+  position: absolute;
+  right: 3px;
+  background: #3D3E40;
+  border: 1px solid white;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-size: 14px;
+  top: 3px;
+}
